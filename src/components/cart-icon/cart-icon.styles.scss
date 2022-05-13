@@ -1,0 +1,26 @@
+.cart-icon-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  align-self: flex-start;
+  margin-left: 15px;
+
+  .shopping-icon {
+    height: 36px;
+  }
+
+  .item-count {
+    position: absolute;
+    font-weight: bold;
+    bottom: 3px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
