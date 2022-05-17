@@ -19,12 +19,12 @@ const Homepage = () => {
     },
     {
       id: 4,
-      title: "WOMENS",
+      title: "WOMEN",
       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
     },
     {
       id: 5,
-      title: "MENS",
+      title: "MEN",
       imageUrl: "https://i.ibb.co/R70vBrQ/mens.png",
     },
   ];
