@@ -5,6 +5,11 @@
   margin-bottom: 25px;
   border-bottom: 1px solid black;
   padding: 10px 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  width: calc(100% - 100px);
 
   .logo-container {
     padding: 30px;
