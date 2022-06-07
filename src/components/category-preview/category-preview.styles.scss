@@ -1,12 +1,25 @@
 .category-preview-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d0d0d0;
 
   .title {
     font-size: 28px;
     margin-bottom: 25px;
     cursor: pointer;
+
+    .arrow {
+      margin-left: 5px;
+      width: 16px;
+      transition: 0.2s all ease-in-out;
+    }
+
+    &:hover {
+      .arrow {
+        margin-left: 10px;
+      }
+    }
   }
 
   .preview {
