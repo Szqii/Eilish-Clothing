@@ -1,4 +1,3 @@
-import { async } from "@firebase/util";
 import { useState } from "react";
 
 import FormInput from "../form-input/form-input.component";
@@ -7,7 +6,6 @@ import "./sign-in-form.styles.scss";
 
 import {
   signInWithGooglePopUp,
-  createUserDocumentFromAuth,
   signInAuthUserWithEmailAndPassword,
 } from "../../utils/firebase/firebase.utils";
 

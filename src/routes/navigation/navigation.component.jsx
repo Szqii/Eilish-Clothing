@@ -1,4 +1,3 @@
-import { async } from "@firebase/util";
 import { Fragment, useContext } from "react";
 import { Outlet, Link } from "react-router-dom";
 import { ReactComponent as EilishLogo } from "../../assets/eilish-logo.svg";

@@ -30,6 +30,7 @@ const firebaseConfig = {
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
+console.log(firebaseApp); // eslint-disable-line no-console
 
 const googleProvider = new GoogleAuthProvider();
 googleProvider.setCustomParameters({
